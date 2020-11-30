@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("./assets/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/Poppins/Poppins-Light.ttf");
+}
+
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/Poppins/Poppins-SemiBold.ttf");
+}
+
+
+
+
+html {
+    box-sizing: border-box;
+    font-family: "Poppins-Light";
+    font-size: 15px;
+}
+
+
+*,
+*:after,
+*:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
