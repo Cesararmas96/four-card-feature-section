@@ -9,6 +9,7 @@ const Main = styled.div`
 	justify-content: center;
 	align-items: center;
 	background-color: #fafafa;
+  height: 100vh;
 `;
 
 const App = () => {

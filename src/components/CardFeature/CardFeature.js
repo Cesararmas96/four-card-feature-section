@@ -49,7 +49,7 @@ const Description = styled.div`
 `;
 
 const BorderTop = styled.div`
-	background-color: ${props => props.color};
+	background-color: ${props => props.inputColor};
 	width: 100%;
 	height: 3px;
 `;
@@ -73,7 +73,7 @@ const Image = styled.img`
 const CardFeature = ({ title, description, color, icon }) => {
     return (
       <Card>
-      	<BorderTop color={color}></BorderTop>
+      	<BorderTop inputColor={color}></BorderTop>
       	<Content>
 					<Title>{title}</Title>	
 					<Description>
